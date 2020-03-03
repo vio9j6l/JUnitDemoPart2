@@ -41,8 +41,9 @@ public class IOHelperTest {
      * Tests for fullName
      */
     // TODO 02: fullName test for "Homer J. Simpson"
+
     @Test
-    public void fullNma_Pass_Homer_First_Middle_Last__Returns_Homer_J_Simpson() {
+    public void fullName_Pass_Homer_First_Middle_Last__Returns_Homer_J_Simpson() {
         String firstName = "Homer";
         String middleName = "Jay";
         String lastName = "Simpson";
@@ -52,13 +53,26 @@ public class IOHelperTest {
         assertEquals(expected, actual);
     }
 
-
-
-
     // TODO 03: fullName test for "Marge Simpson"
 
+    @Test
+    public void fullName_Pass_Simpson_Names__Returns_Full_Name() {
+        String firstName = "Homer";
+        String middleName = "Jay";
+        String lastName = "Simpson";
 
+        String expected = "Homer J. Simpson";
+        String actual = IOHelper.fullName(firstName, middleName, lastName);
+        assertEquals(expected, actual);
 
+        firstName = "Marge";
+        middleName = "";
+        lastName = "Simpson";
+
+        expected = "Marge Simpson";
+        actual = IOHelper.fullName(firstName, middleName, lastName);
+        assertEquals(expected, actual);
+    }
 
 
     /*
