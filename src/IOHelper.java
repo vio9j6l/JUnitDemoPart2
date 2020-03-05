@@ -6,7 +6,6 @@
  * Email: jpl5840@psu.edu
  */
 
-
 /**
  * Assists with tasks related to Input/Output
  * <p>
