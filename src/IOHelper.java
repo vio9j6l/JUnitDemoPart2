@@ -1,3 +1,12 @@
+/*
+ * Course: IST 311
+ * Instructor: Phil O'Connell(px04)
+ * Student: JiaJia Liu
+ * Assignment: LB13
+ * Email: jpl5840@psu.edu
+ */
+
+
 /**
  * Assists with tasks related to Input/Output
  * <p>
